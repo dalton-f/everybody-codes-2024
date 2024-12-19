@@ -5,7 +5,7 @@
 
 const fs = require("fs");
 
-const input = fs.readFileSync("quests/quest-01/input.txt", "utf-8");
+const input = fs.readFileSync("quests/quest-01/part-1/input.txt", "utf-8");
 
 const creatures = input.split("");
 
